@@ -1,0 +1,47 @@
+/* Center the chessboard */
+.chessboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Chessboard table styling */
+.chessboard {
+    border-collapse: collapse;
+    background-color: #5A2D0C;
+}
+
+/* Square styling */
+.chessboard td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.chess-tr{
+   
+}
+
+/* Light squares */
+.light {
+    background-color: #F0D9B5;
+}
+
+/* Dark squares */
+.dark {
+    background-color: #8B4513;
+}
+
+/* Coordinate styling */
+.coordinate {
+    color: white;
+    font-weight: bold;
+    background-color: #5A2D0C;
+    width: 50px;
+    height: 50px;
+}
+
